@@ -19,5 +19,22 @@ class SMain{
         System.out.println(stack.getSize());
 
         System.out.println(stack.isEmpty());
+
+
+        DStack dstack = new DStack();
+        dstack.push(8);
+        dstack.push(8);
+        dstack.push(8);
+        dstack.push(8);
+        dstack.push(8);
+        dstack.push(8);
+
+        dstack.pop();
+        dstack.pop();
+        dstack.pop();
+        dstack.pop();
+        dstack.pop();
+        dstack.pop();
+
     }
 }

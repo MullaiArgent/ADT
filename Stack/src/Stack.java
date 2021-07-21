@@ -10,7 +10,7 @@ public class Stack {
             top++;
     }}
     public void pop(){
-        if (top==0){
+        if (isEmpty()){
             System.out.println("Im done");
             }
         else{
